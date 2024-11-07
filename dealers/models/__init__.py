@@ -1,10 +1,2 @@
-class Dealer:
-    pass
-
-
-class Motorcycle:
-    pass
-
-
-class MotorcycleDealer:
-    pass
+from .dealer import Dealer
+from .motorcycleDealer import MotorcycleDealer

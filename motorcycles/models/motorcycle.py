@@ -1,7 +1,7 @@
 from django.db import models
-from motorcycle_project.motorcycles.models.Brand import Brand
-from motorcycle_project.motorcycles.models.Category import Category
-from motorcycle_project.motorcycles.models.Engine import Engine
+from motorcycles.models.brand import Brand
+from motorcycles.models.category import Category
+from motorcycles.models.engine import Engine
 
 
 class Motorcycle(models.Model):

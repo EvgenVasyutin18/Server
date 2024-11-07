@@ -1,6 +1,6 @@
 from django.db import models
-from motorcycle_project.customers.models.Customer import Customer
-from motorcycle_project.customers.models import Motorcycle
+from customers.models.customer import Customer
+from motorcycles.models.motorcycle import Motorcycle
 
 
 class Purchase(models.Model):

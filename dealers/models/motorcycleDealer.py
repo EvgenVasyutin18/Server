@@ -1,5 +1,6 @@
 from django.db import models
-from motorcycle_project.dealers.models import Motorcycle, Dealer
+from dealers.models import Dealer
+from motorcycles.models import Motorcycle
 
 
 class MotorcycleDealer(models.Model):
@@ -12,5 +13,3 @@ class MotorcycleDealer(models.Model):
 
     def __str__(self):
         return f'{self.dealer.name} - {self.motorcycle.model}'
-
-
